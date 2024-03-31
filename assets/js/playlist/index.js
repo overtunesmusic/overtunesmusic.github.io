@@ -3,6 +3,7 @@ AP.init({
   playList: [
     {'icon': iconImage, 'title': 'Hope In Holiday - Hurry Up', 'file': 'https://github.com/overtunesmusic/overtunesmusic.github.io/raw/main/song/Hope%20In%20Holiday%20-%20Hurry%20Up.mp3'},
     {'icon': iconImage, 'title': 'Denniar Long Feat Bakat - Risalah Hati (Cover)', 'file': 'https://github.com/overtunesmusic/overtunesmusic.github.io/raw/main/song/Denniar%20Long%20Feat%20Bakat%20-%20Risalah%20Hati%20(Cover).mp3'},
+    {'icon': iconImage, 'title': 'Eki Manna & IyoRTML Ft. Mery S - Cintaku Jangan Kau Benci', 'file': 'https://github.com/overtunesmusic/overtunesmusic.github.io/raw/main/song/Eki%20Manna%20&%20IyoRTML%20Ft.%20Mery%20S%20-%20Cintaku%20Jangan%20Kau%20Benci.mp3'},
     {'icon': iconImage, 'title': 'Radio Tip Masa Lampau - CinLok', 'file': 'https://github.com/overtunesmusic/overtunesmusic.github.io/raw/main/song/Radio%20Tip%20Masa%20Lampau%20-%20CinLok.mp3'}
   ]
 });
