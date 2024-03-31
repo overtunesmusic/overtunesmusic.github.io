@@ -204,12 +204,53 @@ a:hover {
   font-size: 18px;
 }
 
+.column2 {
+  float: left;
+  width: 50%;
+}
+
+.column3 {
+  float: left;
+  width: 33.33%;
+}
+
+.column4 {
+  float: left;
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bgwhite {
+  background: white;
+}
+
+.padd10 {
+  padding: 10px;
+}
+
 .padd20 {
   padding: 20px;
 }
 
+.padd50 {
+  padding: 50px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
 .mt100 {
   margin-top: 100px;
+}
+
+.mtxtsp {
+  font-size: 14px;
 }
 
 footer {
@@ -597,5 +638,11 @@ button {
     }
     .pl-container {
         bottom: 100px;
+    }
+    .column3 {
+      width: 100%;
+    }
+    .column4 {
+      width: 100%;
     }
 }
