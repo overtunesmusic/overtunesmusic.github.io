@@ -1,3 +1,9 @@
+/*
+  Template Music Player
+  CSS build by CusMeDroid or Suryo DwiJayanto
+  March 31, 2024
+*/
+
 ::-webkit-scrollbar {
     width: 5px;
     height: 4px;
@@ -91,9 +97,66 @@ a:hover {
     color: #000000;
 }
 
+.mheader {
+  position: fixed;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  z-index: 1;
+}
+
+#menu {
+  margin-left: -240px;
+}
+
+.micon {
+  padding: 10px;
+  color: white;
+  min-width: 40px;
+  text-align: center;
+}
+
+.mnav {
+  width: 240px;
+  height: 100%;
+  overflow: auto;
+  background: #222;
+  float: left;
+  text-align: left;
+}
+
+.mnav a {
+  display: block;
+  color: #FFF;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.mnav a:hover {
+  background: #CCCCCC90;
+} 
+
+.mbtn {
+    width: 60px;
+    height: 60px;
+    background: #222;
+    float: left;
+    margin-top: 30px;
+    border-radius: 0px 20px 20px 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#btn_close {
+  display: none;
+}
+
 .bgimg {
     background-image: url("../wallpaper/001.jpg");
-    height: 100vh;
+    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -123,6 +186,30 @@ a:hover {
     width: 180px;
     border: 2px solid orangered;
     border-radius: 100%;
+}
+
+.mbackh {
+  position: fixed;
+  top: 30px;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  background: #222;
+  border-radius: 0px 20px 20px 0px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.padd20 {
+  padding: 20px;
+}
+
+.mt100 {
+  margin-top: 100px;
 }
 
 footer {
@@ -155,7 +242,7 @@ button {
   color: #333;
   background: white;
   border-top: 1px solid #ccc;
-  z-index: 9999;
+  z-index: 1;
 }
 .ap-inner {
   max-width: 1440px;
@@ -214,11 +301,11 @@ button {
   width: 0;
   border-radius: 5px 0 0 5px;
   background: rgba(0,0,0,.3);
-  z-index: 999;
+  z-index: 1;
 }
 .ap-bar {
   background: #f50;
-  z-index: 9999;
+  z-index: 1;
 }
 .ap-bar:after {
   position: absolute;
@@ -240,7 +327,7 @@ button {
 /* Buttons */
 .ap-controls {
   position: relative;
-  z-index: 1000;
+  z-index: 1;
   display: block;
   height: 50px;
   cursor: pointer;
@@ -272,7 +359,7 @@ button {
   display: inline;
 }
 .ap-volume-container {
-  z-index: 9999;
+  z-index: 1;
 }
 .ap-volume {
   position: absolute;
@@ -286,7 +373,7 @@ button {
   background: #ddd;
   border: 1px solid #ccc;
   border-bottom: 0;
-  z-index: 9999;
+  z-index: 1;
 }
 .ap-volume-btn {
   display: block;
@@ -382,7 +469,7 @@ button {
   font-family: Arial, sans-serif;
   font-size: 14px;
   background: gainsboro;
-  z-index: 999;
+  z-index: 2;
 }
 .pl-lead {
   font-size: 24px;
@@ -493,7 +580,7 @@ button {
 
 @media screen and (max-width: 512px) {
     .middle {
-        position: relative;
+        position: fixed;
         width: 100%;
         top: 25%;
         left: 0%;
@@ -501,7 +588,7 @@ button {
         text-align: center;
     }
     .mlogo {
-        width: 120px;
+        width: 140px;
     }
     footer {
         text-align: center;

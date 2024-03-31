@@ -20,11 +20,26 @@
   <script type="text/javascript" src="https://cusmedroid.github.io/js/jquery-3.6.0.min.js"></script>
 </head>
 <body id="myCopyright" class="bgimg">
+  <header class="mheader animate-left">
+    <div class="mnav" id="menu">
+      <a title="Home" href=""><i class="fa fa-home micon" aria-hidden="true"></i> Home</a>
+      <a title="About" target="_blank" href="about"><i class="fa fa-info micon" aria-hidden="true"></i> About</a>
+      <a title="Privacy Policy" target="_blank" href="privacy-policy"><i class="fa fa-shield micon" aria-hidden="true"></i> Privacy Policy</a>
+    </div>
+    <a class="mbtn" id="btn_menu">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </a>
+    <a class="mbtn" id="btn_close">
+      <i class="fa fa-times" aria-hidden="true"></i>
+    </a>
+  </header>
   <main class="middle">
     <section class="mcard animate-zoom">
       <img class="mlogo" src="assets/logo/overtunesmusic.jpg" alt="Overtunes Music" />
       <h3>@overtunesmusic</h3>
-      <footer>Copyright &copy; <script>document.write(new Date().getFullYear());</script> - <a class="black" href="">Overtunes Music</a></footer>
+      <footer>
+        <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> - <a class="black" href="https://overtunesmusic.github.io">Overtunes Music</a></p>
+      </footer>
     </section>
   </main>
   <div class="ap animate-bottom" id="ap">
@@ -106,6 +121,7 @@
   </div>
   <script type="text/javascript" src="assets/js/music-controller/index.js"></script>
   <script type="text/javascript" src="assets/js/a/index.js"></script>
+  <script type="text/javascript" src="assets/js/playlist/index.js"></script>
   <script type="module" src="assets/js/analytics/index.js"></script>
 </body>
 </html>
