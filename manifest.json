@@ -14,7 +14,8 @@
     {
       "src": "/assets/logo/ic_launcher.png",
       "type": "image/jpg",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any"
     }
   ],
   "scope": "https://overtunesmusic.github.io",
