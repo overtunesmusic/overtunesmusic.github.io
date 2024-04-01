@@ -33,6 +33,5 @@ if (document.getElementById("btn-cookies")) {
                 document.getElementById("main-cookies").style.display = "none";
             }
         }
-        document.getElementById("main-cookies").style.display = "none";
     };    
 }
