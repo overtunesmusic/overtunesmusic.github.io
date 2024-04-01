@@ -4,6 +4,9 @@
   "name": "Overtunes Music",
   "short_name": "Overtunes Music",
   "version": "1.0.0",
+  "permission": [
+    "proxy"
+  ],
   "protocol_handlers": [
     {
       "protocol": "web+song",
