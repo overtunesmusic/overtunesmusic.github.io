@@ -479,35 +479,7 @@ button {
 .playing > .ap--pause {
   animation: blink 1.5s linear infinite;
 }
-/* --------------------------- */
 
-@media(max-width:880px) {
-  .ap-item > .ap-controls {
-    flex: 1;
-  }
-}
-@media(max-width:550px) {
-  .ap {
-    min-width: 250px;
-  }
-  .ap, .ap-panel {
-    height: auto;
-  }
-  .ap-panel {
-    flex-wrap: wrap;
-  }
-  .ap--track {
-    margin-bottom: 10px;
-    padding: 0 20px;
-    order: 1;
-    flex: 1 1 100%;
-  }
-  .ap--playback,
-  .ap--settings {
-    flex: 1 1 50%;
-    order: 2;
-  }
-}
 /*--------------------
   PlayList
 --------------------*/
@@ -631,30 +603,56 @@ button {
 }
 /* My Music End */
 
-@media screen and (max-width: 512px) {
-    .middle {
-        position: fixed;
-        width: 100%;
-        top: 25%;
-        left: 0%;
-        transform: none;
-        text-align: center;
-    }
-    .mlogo {
-        width: 140px;
-    }
-    footer {
-        text-align: center;
-        padding: 10px;
-        font-size: 14px;
-    }
-    .pl-container {
-        bottom: 100px;
-    }
-    .column3 {
-      width: 100%;
-    }
-    .column4 {
-      width: 100%;
-    }
+@media screen and(max-width:880px) {
+  .ap-item > .ap-controls {
+    flex: 1;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .middle {
+    position: fixed;
+    width: 100%;
+    top: 20%;
+    left: 0%;
+    transform: none;
+    text-align: center;
+  }
+  .mlogo {
+    width: 140px;
+  }
+  footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .ap {
+    min-width: 250px;
+  }
+  .ap, .ap-panel {
+    height: auto;
+  }
+  .ap-panel {
+    flex-wrap: wrap;
+  }
+  .ap--track {
+    margin-bottom: 10px;
+    padding: 0 20px;
+    order: 1;
+    flex: 1 1 100%;
+  }
+  .ap--playback,
+  .ap--settings {
+    flex: 1 1 50%;
+    order: 2;
+  }
+  .pl-container {
+    bottom: 100px;
+  }
+  .column3 {
+    width: 100%;
+  }
+  .column4 {
+    width: 100%;
+  }
 }
