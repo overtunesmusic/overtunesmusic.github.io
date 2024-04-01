@@ -2,7 +2,7 @@ function setCookie(cname, cvalue, exdays) {
     const d = new Date();
     d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
     let expires = "expires="+d.toUTCString();
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/" + ";SameSite=Lax";
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/" + ";SameSite=None" + ";Secure";
 }
 
 function getCookie(cname) {
@@ -41,7 +41,6 @@ document.getElementById("btn-cookies").onclick = function () {
             document.getElementById("main-cookies").style.display = "none";
         }
     }
-    window.location.href = "";
 };
 
 function eraseCookie(cname) {   
@@ -51,5 +50,5 @@ function eraseCookie(cname) {
 document.getElementById("btn-del-cookies").onclick = function () {
     eraseCookie("cookies");
     document.getElementById("main-cookies").style.display = "block";
-    window.location.href = "";
+    window.location.href = "https://overtunesmusic.github.io";
 };
