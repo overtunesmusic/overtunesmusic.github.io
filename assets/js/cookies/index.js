@@ -51,6 +51,7 @@ document.getElementById("btn-cookies").onclick = function () {
 
 document.getElementById("btn-del-cookies").onclick = function () {
     function eraseCookie(cname) {   
-        document.cookie = name + "=; Max-Age=0";
+        document.cookie = cname + "=; Max-Age=0";
+        document.getElementById("main-cookies").style.display = "block";
     }
 };
