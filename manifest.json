@@ -1,0 +1,118 @@
+{
+  "lang": "en-US",
+  "dir": "auto",
+  "name": "Overtunes Music",
+  "short_name": "Overtunes Music",
+  "version": "1.0.0",
+  "protocol_handlers": [
+    {
+      "protocol": "web+song",
+      "url": "/song/?q=%s"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/assets/logo/ic_launcher.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "scope": "https://overtunesmusic.github.io",
+  "id": "#",
+  "start_url": "https://overtunesmusic.github.io",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "shortcuts": [
+    {
+      "name": "Overtunes Music",
+      "short_name": "Overtunes Music",
+      "description": "Overtunes music is a provider of digital song recording services at home.",
+      "url": "https://overtunesmusic.github.io",
+      "icons": [
+        {
+          "src": "favicon.ico",
+          "sizes": "200x200"
+        }
+      ]
+    }
+  ],
+  "description": "Overtunes music is a provider of digital song recording services at home.",
+  "screenshots": [
+    {
+      "src": "/assets/screenshot/w001.png",
+      "type": "image/png",
+      "sizes": "1920x1080",
+      "form_factor": "wide",
+      "label": "Website"
+    },
+    {
+      "src": "/assets/screenshot/w002.png",
+      "type": "image/png",
+      "sizes": "1920x1080",
+      "form_factor": "wide",
+      "label": "Website"
+    },
+    {
+      "src": "/assets/screenshot/w003.png",
+      "type": "image/png",
+      "sizes": "1920x1080",
+      "form_factor": "wide",
+      "label": "Website"
+    },
+    {
+      "src": "/assets/screenshot/m001.png",
+      "type": "image/png",
+      "sizes": "861x1754",
+      "label": "Application"
+    },
+    {
+      "src": "/assets/screenshot/m002.png",
+      "type": "image/png",
+      "sizes": "861x1754",
+      "label": "Application"
+    },
+    {
+      "src": "/assets/screenshot/m003.png",
+      "type": "image/png",
+      "sizes": "861x1754",
+      "label": "Application"
+    }
+  ],
+  "display_override": [
+    "window-controls-overlay"
+  ],
+  "share_target": {
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "action": "/share",
+    "params": {
+      "title": "Overtunes Music",
+      "text": "Overtunes music is a provider of digital song recording services at home.",
+      "url": "https://overtunesmusic.github.io",
+      "files": [
+        {
+          "name": "Share",
+          "accept": [
+            ".js",
+            ".php",
+            ".py"
+          ]
+        }
+      ]
+    }
+  },
+  "categories": [
+    "personalization",
+    "social"
+  ],
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://overtunesmusic.github.io",
+      "id": "#"
+    }
+  ]
+}
