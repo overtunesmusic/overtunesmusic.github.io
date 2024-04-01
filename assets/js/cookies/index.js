@@ -2,8 +2,7 @@ function setCookie(cname, cvalue, exdays) {
     const d = new Date();
     d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
     let expires = "expires="+d.toUTCString();
-    let simesite = "SameSite";
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/" + simesite + "Lax";
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
 
 function getCookie(cname) {
@@ -27,12 +26,8 @@ if (user != "") {
     document.getElementById("main-cookies").style.display = "none";
     document.getElementById("btn-del-cookies").style.display = "block";
 } else {
-    user = "true";
-    if (user != "" && user != null) {
-        setCookie("cookies", user, 365);
-        document.getElementById("main-cookies").style.display = "none";
-        document.getElementById("btn-del-cookies").style.display = "block";
-    }
+    document.getElementById("main-cookies").style.display = "block";
+    document.getElementById("btn-del-cookies").style.display = "none";
 }
 
 document.getElementById("btn-cookies").onclick = function () {
