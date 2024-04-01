@@ -43,21 +43,21 @@
     {
       "src": "/assets/screenshot/w001.png",
       "type": "image/png",
-      "sizes": "1920x1080",
+      "sizes": "1392x832",
       "form_factor": "wide",
       "label": "Website"
     },
     {
       "src": "/assets/screenshot/w002.png",
       "type": "image/png",
-      "sizes": "1920x1080",
+      "sizes": "1392x832",
       "form_factor": "wide",
       "label": "Website"
     },
     {
       "src": "/assets/screenshot/w003.png",
       "type": "image/png",
-      "sizes": "1920x1080",
+      "sizes": "1392x832",
       "form_factor": "wide",
       "label": "Website"
     },
