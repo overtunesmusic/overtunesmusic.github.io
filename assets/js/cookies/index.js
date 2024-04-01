@@ -24,10 +24,14 @@ let user = getCookie("cookies");
 if (user != "") {
     // console.log("Welcome again " + user);
     document.getElementById("main-cookies").style.display = "none";
-    document.getElementById("btn-del-cookies").style.display = "block";
+    if (document.getElementById("btn-del-cookies")) {
+        document.getElementById("btn-del-cookies").style.display = "block";
+    }
 } else {
     document.getElementById("main-cookies").style.display = "block";
-    document.getElementById("btn-del-cookies").style.display = "none";
+    if (document.getElementById("btn-del-cookies")) {
+        document.getElementById("btn-del-cookies").style.display = "none";
+    }
 }
 
 document.getElementById("btn-cookies").onclick = function () {
@@ -47,8 +51,10 @@ function eraseCookie(cname) {
     document.cookie = cname + "=; Max-Age=0";
 }
 
-document.getElementById("btn-del-cookies").onclick = function () {
-    eraseCookie("cookies");
-    document.getElementById("main-cookies").style.display = "block";
-    window.location.href = "https://overtunesmusic.github.io";
-};
+if (document.getElementById("btn-del-cookies")) {
+    document.getElementById("btn-del-cookies").onclick = function () {
+        eraseCookie("cookies");
+        document.getElementById("main-cookies").style.display = "block";
+        window.location.href = "https://overtunesmusic.github.io";
+    };
+}
