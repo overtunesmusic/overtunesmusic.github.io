@@ -12,9 +12,9 @@
   ],
   "icons": [
     {
-      "src": "/assets/logo/ic_launcher.png",
+      "src": "/assets/logo/ic_launcher_144.png",
       "type": "image/jpg",
-      "sizes": "512x512",
+      "sizes": "144x144",
       "purpose": "any"
     }
   ],
