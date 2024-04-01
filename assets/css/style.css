@@ -87,7 +87,7 @@ a {
     text-decoration: none;
     cursor: pointer;
     transition: 0.4s;
-    color: cornflowerblue;
+    color: lightsalmon;
 }
 
 a:hover {
@@ -263,8 +263,42 @@ a:hover {
     height: 60px;
     padding: 8px;
     border-radius: 20px 0px 0px 20px;
-    background: lightsalmon;
+    background: salmon;
     border: 2px solid #222;
+}
+
+.cktxt {
+  font-size: 16px;
+}
+
+.white {
+    color: white;
+}
+
+#main-cookies {
+    width: 100%;
+    padding: 20px;
+    background: salmon;
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    z-index: 2;
+    align-items: center;
+}
+
+#btn-cookies {
+    background: black;
+    color: white;
+    margin-top: 0px;
+    margin-left: 10px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn-cookies:hover {
+    background: white;
+    color: black;
 }
 
 footer {
@@ -657,5 +691,24 @@ button {
   }
   .column4 {
     width: 100%;
+  }
+  #main-cookies {
+    width: 100%;
+    padding: 20px;
+    background: salmon;
+    position: fixed;
+    display: block;
+    bottom: 0;
+    z-index: 2;
+  }
+  #btn-cookies {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0px;
+    background: black;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+    cursor: pointer;
   }
 }
