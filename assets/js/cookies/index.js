@@ -35,16 +35,13 @@ if (user != "") {
 }
 
 document.getElementById("btn-cookies").onclick = function () {
-    if (user != "") {
-        // console.log("Welcome again " + user);
-        document.getElementById("main-cookies").style.display = "none";
-    } else {
-        user = "true";
-        if (user != "" && user != null) {
-            setCookie("cookies", user, 365);
-            document.getElementById("main-cookies").style.display = "none";
-        }
+    user = "true";
+    setCookie("cookies", user, 365);
+    document.getElementById("main-cookies").style.display = "none";
+    if (document.getElementById("btn-del-cookies")) {
+        document.getElementById("btn-del-cookies").style.display = "block";
     }
+    window.location.href = "";
 };
 
 function eraseCookie(cname) {   
@@ -55,6 +52,6 @@ if (document.getElementById("btn-del-cookies")) {
     document.getElementById("btn-del-cookies").onclick = function () {
         eraseCookie("cookies");
         document.getElementById("main-cookies").style.display = "flex";
-        window.location.href = "https://overtunesmusic.github.io";
+        window.location.href = "";
     };
 }
