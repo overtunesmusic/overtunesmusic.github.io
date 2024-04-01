@@ -41,6 +41,7 @@ document.getElementById("btn-cookies").onclick = function () {
             document.getElementById("main-cookies").style.display = "none";
         }
     }
+    window.location.href = "";
 };
 
 function eraseCookie(cname) {   
@@ -50,5 +51,5 @@ function eraseCookie(cname) {
 document.getElementById("btn-del-cookies").onclick = function () {
     eraseCookie("cookies");
     document.getElementById("main-cookies").style.display = "block";
-    window.location.href = "https://overtunesmusic.github.io";
+    window.location.href = "";
 };
