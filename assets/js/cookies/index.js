@@ -20,8 +20,19 @@ function getCookie(cname) {
     return "";
 }
 
+let user = getCookie("cookies");
+if (user != "") {
+    // console.log("Welcome again " + user);
+    document.getElementById("main-cookies").style.display = "none";
+} else {
+    user = "true";
+    if (user != "" && user != null) {
+        setCookie("cookies", user, 365);
+        document.getElementById("main-cookies").style.display = "none";
+    }
+}
+
 document.getElementById("btn-cookies").onclick = function () {
-    let user = getCookie("cookies");
     if (user != "") {
         // console.log("Welcome again " + user);
         document.getElementById("main-cookies").style.display = "none";
@@ -32,4 +43,4 @@ document.getElementById("btn-cookies").onclick = function () {
             document.getElementById("main-cookies").style.display = "none";
         }
     }
-};  
+};
