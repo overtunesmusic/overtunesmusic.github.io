@@ -87,6 +87,7 @@ a {
     text-decoration: none;
     cursor: pointer;
     transition: 0.4s;
+    color: cornflowerblue;
 }
 
 a:hover {
