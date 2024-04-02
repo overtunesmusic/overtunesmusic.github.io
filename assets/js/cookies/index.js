@@ -57,3 +57,7 @@ if (document.getElementById("btn-del-cookies")) {
         window.location.href = "";
     };
 }
+
+const d = new Date();
+let year = d.getFullYear();
+document.getElementById("myear").innerHTML = year;
