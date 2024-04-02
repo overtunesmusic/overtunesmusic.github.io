@@ -278,6 +278,11 @@ a:hover {
     color: white;
 }
 
+.btm_spc {
+  width: 100%;
+  height: 50px;
+}
+
 .main-cookies {
     width: 100%;
     padding: 20px;
@@ -713,5 +718,8 @@ button {
     padding: 14px 20px;
     border-radius: 5px;
     cursor: pointer;
+  }
+  .btm_spc {
+    height: 100px;
   }
 }
