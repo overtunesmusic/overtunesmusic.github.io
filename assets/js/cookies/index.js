@@ -35,8 +35,8 @@ if (user != "") {
 }
 
 document.getElementById("btn-cookies").onclick = function () {
-    user = "true";
-    setCookie("cookies", user, 365);
+    user = "1";
+    setCookie("cookie", user, 365);
     document.cookie="thirdparty=yes";
     document.getElementById("main-cookies").style.display = "none";
     if (document.getElementById("btn-del-cookies")) {
