@@ -11,3 +11,10 @@ document.getElementById("btn_close").onclick = function () {
   document.getElementById("menu").style.marginLeft = "-240px";
   document.body.style.overflow = "auto";
 };
+
+function mClose() {
+  document.getElementById("btn_menu").style.display = "inline-flex";
+  document.getElementById("btn_close").style.display = "none";
+  document.getElementById("menu").style.marginLeft = "-240px";
+  document.body.style.overflow = "auto";
+}
