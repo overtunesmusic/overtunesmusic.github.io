@@ -37,6 +37,7 @@ if (user != "") {
 document.getElementById("btn-cookies").onclick = function () {
     user = "true";
     setCookie("cookies", user, 365);
+    document.cookie="thirdparty=yes";
     document.getElementById("main-cookies").style.display = "none";
     if (document.getElementById("btn-del-cookies")) {
         document.getElementById("btn-del-cookies").style.display = "block";
@@ -46,6 +47,7 @@ document.getElementById("btn-cookies").onclick = function () {
 
 function eraseCookie(cname) {   
     document.cookie = cname + "=; Max-Age=0";
+    document.cookie="thirdparty=; Max-Age=0";
 }
 
 if (document.getElementById("btn-del-cookies")) {
