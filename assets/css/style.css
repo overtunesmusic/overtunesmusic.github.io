@@ -101,7 +101,6 @@ a:hover {
 .mheader {
   position: fixed;
   left: 0;
-  width: 300px;
   height: 100%;
   z-index: 1;
 }
