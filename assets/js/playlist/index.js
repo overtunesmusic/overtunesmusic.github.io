@@ -10,7 +10,7 @@ AP.init({
     {"icon": iconImage, "title": "FLUFFY - BUKAN YANG TERBAIK (Akustik)", "file": "https://github.com/overtunesmusic/overtunesmusic.github.io/raw/main/song/FLUFFY%20-%20BUKAN%20YANG%20TERBAIK%20(Akustik).mp3"},
     {"icon": iconImage, "title": "HISTORY OF STRUGGLE - DESTROY THE ATMOSPHERE", "file": "https://github.com/overtunesmusic/overtunesmusic.github.io/raw/main/song/HISTORY%20OF%20STRUGGLE%20-%20DESTROY%20THE%20ATMOSPHERE.mp3"},
     {"icon": iconImage, "title": "HISTORY OF STRUGGLE - INTRO", "file": "https://github.com/overtunesmusic/overtunesmusic.github.io/raw/main/song/HISTORY%20OF%20STRUGGLE-INTRO.mp3"},
-    {"icon": iconImage, "title": "HOLIDAY IN HOLIDAY - HURRY UP", "file": "https://github.com/overtunesmusic/overtunesmusic.github.io/raw/main/song/HOLIDAY%20IN%20HOLIDAY%20-%20HURRY%20UP.mp3"},
+    {"icon": iconImage, "title": "HOPE IN HOLIDAY - HURRY UP", "file": "https://github.com/overtunesmusic/overtunesmusic.github.io/raw/main/song/HOLIDAY%20IN%20HOLIDAY%20-%20HURRY%20UP.mp3"},
     {"icon": iconImage, "title": "MALE FOUR DUCK - KULIAH PAGI", "file": "https://github.com/overtunesmusic/overtunesmusic.github.io/raw/main/song/MALE%20FOUR%20DUCK%20-%20KULIAH%20PAGI.mp3"},
     {"icon": iconImage, "title": "RIVKY - A PROMISE (COVER)", "file": "https://github.com/overtunesmusic/overtunesmusic.github.io/raw/main/song/RIVKY%20-%20A%20PROMISE%20(COVER).mp3"},
     {"icon": iconImage, "title": "ROOF THE STREETS  Feat M ARIFIN ZEIN - WAKE UP! YOU'RE AWESOME! (Akustik)", "file": "https://github.com/overtunesmusic/overtunesmusic.github.io/raw/main/song/ROOF%20THE%20STREETS%20%20Feat%20M%20ARIFIN%20ZEIN%20-%20WAKE%20UP!%20YOU'RE%20AWESOME!%20(%20Akustik%20).mp3"},
