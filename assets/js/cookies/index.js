@@ -58,6 +58,6 @@ if (document.getElementById("btn-del-cookies")) {
     };
 }
 
-const d = new Date();
-let year = d.getFullYear();
-document.getElementById("myear").innerHTML = year;
+const amd = new Date();
+let amyear = amd.getFullYear();
+document.getElementById("myear").innerHTML = amyear;
