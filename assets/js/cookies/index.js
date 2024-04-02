@@ -20,7 +20,7 @@ function getCookie(cname) {
     return "";
 }
 
-let user = getCookie("cookies");
+let user = getCookie("cookie");
 if (user != "") {
     // console.log("Welcome again " + user);
     document.getElementById("main-cookies").style.display = "none";
@@ -52,7 +52,7 @@ function eraseCookie(cname) {
 
 if (document.getElementById("btn-del-cookies")) {
     document.getElementById("btn-del-cookies").onclick = function () {
-        eraseCookie("cookies");
+        eraseCookie("cookie");
         document.getElementById("main-cookies").style.display = "flex";
         window.location.href = "";
     };
