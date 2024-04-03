@@ -38,7 +38,7 @@
     {
       "name": "Overtunes Music",
       "short_name": "Overtunes Music",
-      "description": "Overtunes music is a provider of digital song recording services at home.",
+      "description": "Overtunes music is a provider of digital home record services.",
       "url": "https://overtunesmusic.github.io",
       "icons": [
         {
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "description": "Overtunes music is a provider of digital song recording services at home.",
+  "description": "Overtunes music is a provider of digital home record services.",
   "screenshots": [
     {
       "src": "/assets/screenshot/w001.png",
@@ -99,7 +99,7 @@
     "action": "/share",
     "params": {
       "title": "Overtunes Music",
-      "text": "Overtunes music is a provider of digital song recording services at home.",
+      "text": "Overtunes music is a provider of digital home record services.",
       "url": "https://overtunesmusic.github.io",
       "files": [
         {
