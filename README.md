@@ -11,7 +11,7 @@ Let's Play
 
 # Website Builder
 This website was created by CusMeDroid or Suryo DwiJayanto which is our official partner, with specified support conditions. including :
-- Flow of desires
+- Flow of desires.
 - Image assets must be self-made/shot.
 - The music used as samples has been approved by each band.
 - Personal information about (Overtunes Music) must be appropriate.
