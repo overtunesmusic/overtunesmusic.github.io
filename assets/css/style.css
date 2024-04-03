@@ -695,6 +695,9 @@ button {
   .pl-container {
     bottom: 100px;
   }
+  .column2 {
+    width: 100%;
+  }
   .column3 {
     width: 100%;
   }
