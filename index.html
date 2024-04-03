@@ -242,5 +242,15 @@
   <script type="text/javascript" src="assets/js/music-controller/index.js"></script>
   <script type="text/javascript" src="assets/js/playlist/index.js"></script>
   <script type="module" src="assets/js/analytics/index.js"></script>
+  <script> 
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('sw-cached-site.js', function() {
+        navigator.serviceWorker.register('service-worker.js', {
+          scope: '/',
+        });
+      });
+    } 
+    window.process = { env: { NODE_ENV: 'production' } };
+  </script>
 </body>
 </html>
