@@ -94,7 +94,7 @@
     "window-controls-overlay"
   ],
   "share_target": {
-    "method": "POST",
+    "method": "GET",
     "enctype": "multipart/form-data",
     "action": "/share",
     "params": {
@@ -105,15 +105,15 @@
         {
           "name": "Share",
           "accept": [
-            ".js",
-            ".php",
-            ".py"
+            ".jpg",
+            ".png"
           ]
         }
       ]
     }
   },
   "categories": [
+    "music",
     "personalization",
     "social"
   ],
