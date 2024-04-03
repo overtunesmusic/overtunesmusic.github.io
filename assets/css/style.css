@@ -1,7 +1,7 @@
 /*
   Template Music Player
   CSS build by CusMeDroid or Suryo DwiJayanto
-  April 02, 2024
+  April 03, 2024
 */
 
 ::-webkit-scrollbar {
@@ -282,6 +282,17 @@ a:hover {
 .btm_spc {
   width: 100%;
   height: 50px;
+}
+
+.macto21 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.img-macto21 {
+  width: 100px;
+  height: 100px;
 }
 
 .main-cookies {
@@ -725,5 +736,17 @@ button {
   }
   .btm_spc {
     height: 100px;
+  }
+  .macto21 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .img-macto21 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
   }
 }
