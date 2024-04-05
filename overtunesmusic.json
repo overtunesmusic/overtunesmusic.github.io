@@ -1,0 +1,32 @@
+{
+  "@context": "http://www.schema.org",
+  "@type": "ProfessionalService",
+  "name": "Overtunes Music",
+  "url": "https://overtunesmusic.github.io/",
+  "sameAs": [
+    "https://overtunesmusic.github.io/about/"
+  ],
+  "logo": "https://overtunesmusic.github.io/assets/logo/ic_launcher.png",
+  "image": "https://overtunesmusic.github.io/assets/gallery/g001.jpg",
+  "description": "Overtunes music is a provider of digital home record services, made in 2023 until now by Denniar.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Jalan Kebon Kelapa Tinggi Gg Botol No.11, RT.7/RW.O8",
+    "addressLocality": "Jakarta",
+    "addressRegion": "Jakarta Timur",
+    "postalCode": "13120",
+    "addressCountry": "Indonesia"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "-6.2074544",
+    "longitude": "106.8705479"
+  },
+  "hasMap": "https://www.google.com/maps/place/Overtunes+Music/@-6.2074576,106.8701835,19z/data=!4m6!3m5!1s0x2e69f58f4b2845f3:0x66570a93083de8b0!8m2!3d-6.2074589!4d106.8708272!16s%2Fg%2F11rmnbyr19?entry=ttu",
+  "openingHours": "Mo, Tu, We, Th, Fr, Sa, Su 16:00-23:00",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+6285695373290",
+    "contactType": "Call, Message"
+  }
+}
