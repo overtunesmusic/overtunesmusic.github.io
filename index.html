@@ -22,40 +22,7 @@
   <!-- Include link icon fontawesome -->
   <link rel="stylesheet" href="https://cusmedroid.github.io/fontawesome-4/css/font-awesome.min.css" />
   <script type="text/javascript" src="https://cusmedroid.github.io/js/jquery-3.6.0.min.js"></script>
-  <script type='application/ld+json'> 
-    {
-      "@context": "http://www.schema.org",
-      "@type": "ProfessionalService",
-      "name": "Overtunes Music",
-      "url": "https://overtunesmusic.github.io/",
-      "sameAs": [
-        "https://overtunesmusic.github.io/about/"
-      ],
-      "logo": "https://overtunesmusic.github.io/assets/logo/ic_launcher.png",
-      "image": "https://overtunesmusic.github.io/assets/gallery/g001.jpg",
-      "description": "Overtunes music is a provider of digital home record services, made in 2023 until now by Denniar.",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Jalan Kebon Kelapa Tinggi Gg Botol No.11, RT.7/RW.O8",
-        "addressLocality": "Jakarta",
-        "addressRegion": "Jakarta Timur",
-        "postalCode": "13120",
-        "addressCountry": "Indonesia"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "-6.2074544",
-        "longitude": "106.8705479"
-      },
-      "hasMap": "https://www.google.com/maps/place/Overtunes+Music/@-6.2074576,106.8701835,19z/data=!4m6!3m5!1s0x2e69f58f4b2845f3:0x66570a93083de8b0!8m2!3d-6.2074589!4d106.8708272!16s%2Fg%2F11rmnbyr19?entry=ttu",
-      "openingHours": "Mo, Tu, We, Th, Fr, Sa, Su 16:00-23:00",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+6285695373290",
-        "contactType": "Call, Message"
-      }
-    }
-  </script>
+  <script type="application/ld+json" src="overtunesmusic.json"></script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MX8Z715H46"></script>
   <script>
@@ -164,6 +131,15 @@
         </ul>
       </section>
       <section class="mcard animate-zoom mt20">
+        <h1>Why Must On Overtunes Music?</h1>
+        <hr/>
+        <ul>
+          <li>There is a relaxing room for drinking coffee and taking photos.</li>
+          <li>Experience in providing input to innovate your music.</li>
+          <li>Free promotion for the music you create, on this website and some content creators.</li>
+        </ul>
+      </section>
+      <section class="mcard animate-zoom mt20">
         <h1>Location</h1>
         <hr/>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126921.16640304415!2d106.789031442853!3d-6.225912014831999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f58f4b2845f3%3A0x66570a93083de8b0!2sOvertunes%20Music!5e0!3m2!1sid!2sid!4v1712101758854!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -261,6 +237,7 @@
   <script type="text/javascript" src="assets/js/a/index.js"></script>
   <script type="text/javascript" src="assets/js/music-controller/index.js"></script>
   <script type="text/javascript" src="assets/js/playlist/index.js"></script>
+  <script type="module" src="assets/js/analytics/index.js"></script>
   <script> 
     if ('serviceWorker' in navigator) {
       window.addEventListener('sw-cached-site.js', function() {
