@@ -19,6 +19,7 @@
   <link rel="canonical" href="https://overtunesmusic.github.io/" />
   <meta content="index,follow,max-snippet:-1,max-image-preview:standard,max-video-preview:-1,unavailable_after:2024-04-04" />
   <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
   <!-- Include link icon fontawesome -->
   <link rel="stylesheet" href="https://cusmedroid.github.io/fontawesome-4/css/font-awesome.min.css" />
   <script type="text/javascript" src="https://cusmedroid.github.io/js/jquery-3.6.0.min.js"></script>
@@ -144,6 +145,47 @@
         <hr/>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126921.16640304415!2d106.789031442853!3d-6.225912014831999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f58f4b2845f3%3A0x66570a93083de8b0!2sOvertunes%20Music!5e0!3m2!1sid!2sid!4v1712101758854!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </section>
+      <section class="mcard animate-zoom mt20">
+        <h1>Support</h1>
+        <hr/>
+        <div class="wrapper">
+          <div class="carousel">
+            <div>
+              <a title="Me Arts" target="_blank" href="https://me-arts.web.app">
+                <img src="assets/support/s_001.jpg" alt="Me Arts" />
+              </a>
+            </div>
+            <div>
+              <a title="CusMeDroid" target="_blank" href="https://cusmedroid.github.io">
+                <img src="assets/support/s_002.jpg" alt="CusMeDroid" />
+              </a>
+            </div>
+            <div>
+              <a title="BlogSong" target="_blank" href="https://blog-song.web.app">
+                <img src="assets/support/s_003.jpg" alt="BlogSong" />
+              </a>
+            </div>
+            <div>
+              <a title="KSmart" target="_blank" href="https://klati-smart.web.app">
+                <img src="assets/support/s_004.jpg" alt="KSmart" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript">
+          $(document).ready(function(){
+            $('.carousel').slick({
+              autoplay: true,
+              autoplaySpeed: 1000,
+              slidesToShow: 3,
+              dots: false,
+              prevArrow: false,
+              nextArrow: false,
+              centerMode: true,
+            });
+          });
+        </script>
+      </section>
     </article>
     <footer class="padd50 mt20 mcard animate-bottom">
       <p>Copyright &copy; <span id="myear"></span> - <a href="https://overtunesmusic.github.io">Overtunes Music</a></p>
@@ -248,5 +290,6 @@
     } 
     window.process = { env: { NODE_ENV: 'production' } };
   </script>
+  <script type="text/javascript" src="assets/js/slick/index.js"></script>
 </body>
 </html>
